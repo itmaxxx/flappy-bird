@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 
 	public void Play()
 	{
+		player.ResetPlayer();
+
 		score = 0;
 		scoreText.text = score.ToString();
 
